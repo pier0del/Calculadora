@@ -1,11 +1,11 @@
-#Calculadora Cientifica y basica en java (CLI)
+# Calculadora Cientifica y basica en java (CLI)
 
 esta es una **calculadora basica y cientifica avanzada escrita en java**. ejecutada desde la consola, diseñanda con arquitectura limpia y modular.
 permite realizar **operaciones basicas, cientificas y estadisticas** ademas de cambiar el **modo de angulo**
 
 ---
 
-#Funcionalidades
+# Funcionalidades
 
 ### Operaciones basicas
 - suma
