@@ -19,13 +19,13 @@ permite realizar **operaciones basicas, cientificas y estadisticas** ademas de c
 ---
 
 ### Operaciones cientificas
-- seno (sin)
-- coseno (cos)
-- tangente (tan)
-- logaritmo natural (ln)
-- logaritmo en base 10 (log0)
-- exponencial (e^x)
-- potencia de 10 (1o^x)
+- seno (`sin`)
+- coseno (`cos`)
+- tangente (`tan`)
+- logaritmo natural (`ln`)
+- logaritmo en base 10 (`log10`)
+- exponencial (`e^x`)
+- potencia de 10 (`10^x`)
 
   las funciones trigonometricas funcionan tanto como en **GRADOS** como en **RADIANES**
 
@@ -58,13 +58,34 @@ permite realizar **operaciones basicas, cientificas y estadisticas** ademas de c
   ## Diseño del proyecto
 
   - arquitectura por capas:
-    - ui -> interfaz de consola
-    - core -> fachada principal (Calculadora)
-    - service -> logica matematica
-    - model -> modelos y enums
+    - `ui` -> interfaz de consola
+    - `core` -> fachada principal (Calculadora)
+    -`service` -> logica matematica
+    - `model` -> modelos y enums
   - separacion clara de responsabilidades
   - manejo de errores sin romper la ejecucion
   - codigo documentado con  **Javadoc**
 
-FIN
-  
+Esta separacion facilita:
+- mantenimiento del codigo
+- ampliaciones futuras
+- pruebas unitarias
+
+### Como ejecutar el proyecto
+
+1. clona el repositorio:
+```bash
+git clone https://github.com/pier0del/Calculadora.git
+
+2. compila el proyecto (ejemplo):
+```bash
+javac -d out src/com/example/calculator/app/Main.java
+
+3. ejecuta la aplicacion:
+```bash
+java -cp out com.example.calculator.app.Main
+
+4. usa el menu interactivo desde consola
+
+
+
