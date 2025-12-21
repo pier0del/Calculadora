@@ -60,7 +60,7 @@ permite realizar **operaciones basicas, cientificas y estadisticas** ademas de c
   - arquitectura por capas:
     - `ui` -> interfaz de consola
     - `core` -> fachada principal (Calculadora)
-    -`service` -> logica matematica
+    - `service` -> logica matematica
     - `model` -> modelos y enums
   - separacion clara de responsabilidades
   - manejo de errores sin romper la ejecucion
@@ -74,16 +74,16 @@ Esta separacion facilita:
 ### Como ejecutar el proyecto
 
 1. clona el repositorio:
-```bash
-git clone https://github.com/pier0del/Calculadora.git
+  ```bash
+  git clone https://github.com/pier0del/Calculadora.git
 
 2. compila el proyecto (ejemplo):
-```bash
-javac -d out src/com/example/calculator/app/Main.java
+  ```bash
+  javac -d out src/com/example/calculator/app/Main.java
 
 3. ejecuta la aplicacion:
-```bash
-java -cp out com.example.calculator.app.Main
+  ```bash
+  java -cp out com.example.calculator.app.Main
 
 4. usa el menu interactivo desde consola
 
